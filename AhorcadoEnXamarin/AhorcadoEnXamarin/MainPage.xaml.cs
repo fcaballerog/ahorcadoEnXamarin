@@ -9,6 +9,7 @@ namespace AhorcadoEnXamarin
 {
     public partial class MainPage : ContentPage
     {
+        readonly string[] ALFABETO = { "A", "B", "C", "D", "E", "F", "G" };
         public MainPage()
         {
             InitializeComponent();
@@ -19,6 +20,16 @@ namespace AhorcadoEnXamarin
         {
             //throw new NotImplementedException();
             imageAhorcado.Source = ImageSource.FromResource("AhorcadoEnXamarin.img.1.png");
+
+            int fila = 0;
+            for (int columna = 0; columna < 7; columna++)
+            {
+                gridBotonera.Children.Add(new Button
+                {
+                    Text = "A"
+                }, columna, fila);
+            }
+            
         }
     }
 }
