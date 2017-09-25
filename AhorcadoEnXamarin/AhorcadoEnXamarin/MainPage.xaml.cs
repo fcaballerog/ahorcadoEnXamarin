@@ -12,6 +12,13 @@ namespace AhorcadoEnXamarin
         public MainPage()
         {
             InitializeComponent();
+            Inicializae();
+        }
+
+        private void Inicializae()
+        {
+            //throw new NotImplementedException();
+            imageAhorcado.Source = ImageSource.FromResource("AhorcadoEnXamarin.img.1.png");
         }
     }
 }

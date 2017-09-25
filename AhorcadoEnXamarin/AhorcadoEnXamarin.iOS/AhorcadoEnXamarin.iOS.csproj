@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{59718974-C549-45F7-8367-7B2494868892}</ProjectGuid>
+    <ProjectGuid>{19EA772D-7060-48E4-A126-FD25B7A55191}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>AhorcadoEnXamarin.iOS</RootNamespace>
@@ -135,7 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AhorcadoEnXamarin\AhorcadoEnXamarin.csproj">
-      <Project>{5d2001a3-fcae-41a4-b854-7ef51fce4c96}</Project>
+      <Project>{ce5fc0e9-7414-4adc-b6f2-c9a98915cf70}</Project>
       <Name>AhorcadoEnXamarin</Name>
     </ProjectReference>
   </ItemGroup>
